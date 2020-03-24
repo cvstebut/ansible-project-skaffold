@@ -13,7 +13,6 @@
       - name: docker
         state: latest
 
-  # using roles via import_role makes it work with molecule
   roles:
     - cvstebut.path
     - geerlingguy.pip
