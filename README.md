@@ -1,8 +1,10 @@
--- Work in progress - experimental -- ...
+-- Work in progress - experimental -- 
 
-# Ansible playbook skaffold for using molecule during dev/test
+# Ansible project skaffold for using molecule during playbook development and testing
 
-This repo is my current attempt for my "standard" project structure developing playbooks. The aim is use molecule while developing and testing the playbook.
+This repo is my current attempt for my "standard" project structure developing playbooks. The aim is to use molecule while developing and testing the playbook.
+
+It should also allow me to use travis-ci to run tests, but as of now I have not tested whether this actually works.
 
 ## Notes
 
