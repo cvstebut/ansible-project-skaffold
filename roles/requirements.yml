@@ -1,0 +1,5 @@
+- src: https://github.com/geerlingguy/ansible-role-pip
+  name: geerlingguy.pip
+
+- src: https://github.com/cvstebut/ansible-role-path
+  name: cvstebut.path  

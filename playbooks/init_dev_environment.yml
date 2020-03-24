@@ -1,0 +1,19 @@
+- name: Create dev environment for helm charts and ansible
+  hosts: all
+  become: yes
+
+  vars:
+    path_to_add:
+      - "/usr/local/bin"
+      - "/usr/local/go/bin"
+    pip_package: python3-pip
+    pip_install_packages:
+      - name: molecule
+        state: latest
+      - name: docker
+        state: latest
+
+  # using roles via import_role makes it work with molecule
+  roles:
+    - cvstebut.path
+    - geerlingguy.pip
